@@ -15,11 +15,11 @@ public class LoginTest {
 
 
     /**
-     * 登录成功
+     * 登录成功111
      * */
     @RequestMapping(value = "/", method = RequestMethod.GET, produces="text/html;charset=UTF-8")
     public String success(){
-        return "welcome";
+        return "welcome1111";
     }
 
 
